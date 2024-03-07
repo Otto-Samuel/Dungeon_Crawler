@@ -1,0 +1,72 @@
+@charset "UTF-8";
+@import 'https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300';
+body {
+    background-image: url('../img/1139237-sunlight-reflection-sky-sunrise-evening-morning-mist-retro-games-horizon-atmosphere-dusk-Superbrothers-Sword-Sworcery-light-cloud-fog-mountain-weather-dawn-darkness-scr.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+#caixa{
+    background-color: rgba(9, 14, 19, 0.858);
+    margin-left: 20rem;
+    margin-right: 20rem;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 5px  rgba(0, 0, 0, 0.354);
+}
+strong{
+    color: rgb(88, 95, 230);
+}
+
+h1{
+    color: rgb(226, 192, 2)
+    
+}
+
+.middle1{
+    display: contents;
+    flex-flow: column;
+    align-items: center;
+    position: absolute;
+    top: 55rem;
+    left: 50%;
+    /*transform: translate(-50%,-50%);*/
+    color: rgb(33, 140, 221);
+    position: absolute;
+    
+  }
+  .btn{
+    position: bottom;
+    display: block;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-family: "montserrat";
+    text-decoration: none;
+    margin: 4px 0;
+    border: 2px solid #e8e402;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 1s all ease;
+  }
+  .btn::before{
+    background: #c3b60000;
+    content: "";
+    position: fixed;
+    top: 50rem;
+    left: 50rem;
+    transform: translate(-15%,-15%);
+    z-index: -1;
+    transition: all 0.6s ease;
+  }
+  
+  .btn1::before{
+    width: 0%;
+    height: 100%;
+  }
+  
+  .btn1:hover::before{
+    width: 100%;
+  }

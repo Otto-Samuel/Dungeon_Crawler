@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+<head>
+    <link rel="stylesheet" type="text/css" href="../styles/styleMenu.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <title>Menu do Dungeon Crawler</title>
+</head>
+<body> 
+    <div id="background_menu"></div>
+    <div id="menu1"></div>
+    <h1 id="menu" class="menu"> A Mina Perdida </h1>
+    <p></p>
+    <div class="container"> 
+        <p>MENU PRINCIPAL</p>
+        <div class="middle">
+           <div>
+               <button class="btn btn1">
+                   <a href="loading.html" style="font-size:30px;color:white;border-color: white 2px;">Play</a>
+               </button>
+           </div>
+           <div>
+               <button class="btn btn1">
+                   <a href="tutorial.html " style="font-size:30px;color:white;border-color: white 2px;">Tutorial</a>
+               </button>
+           </div>
+           <div>
+               <button class="btn btn1">
+                   <a href="creditos.html" style="font-size:30px;color:white;border-color: white 2px;">Créditos</a>
+               </button>
+           </div>
+           <div>
+               <button class="btn btn1" >
+                   <a id="fechar-guia" href="javascript:void()" onclick="window.close()" style="font-size:30px;color:white;border-color: white 2px;">Sair</a>
+               </button>
+           </div>
+        </div>
+    </div>    
+    <script>
+        const botaoDeSair = document.getElementById('fechar-guia');
+        botaoDeSair.addEventListener('click', (botaoDeSair) => {
+            window.close();
+        });
+
+        document.getElementById("#botaoOuLink").onclick = function()
+        {
+          window.close();
+        }
+
+    </script>
+</body>
+</html>

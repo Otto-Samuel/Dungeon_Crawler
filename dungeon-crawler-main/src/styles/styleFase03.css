@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgb(4, 0, 74) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+ td {
+    min-width: 50px;
+    min-height: 50px;
+    text-align: center;
+    margin: 40px;
+    position: relative;
+    padding-top: 70px;
+}
+#painel{
+    background-color: rgb(9, 14, 19);
+    width: 3150px;
+    height: -8100px;
+}
+
+#fase3{
+    font-size: 100px;
+    position: initial;
+}
+
+p{
+    padding-right: 505px;
+    margin-bottom: 300px;
+    margin-top: -490px;
+    font-size: 45px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: black 1px 2px 2px;
+    border: 1px solid rgb(0, 255, 225);
+    border-radius: 20px;
+    padding: 10px;
+    margin: 90px;
+}

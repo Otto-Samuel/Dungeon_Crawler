@@ -1,0 +1,41 @@
+body {
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-size: 25px;
+    color: rgb(239, 238, 238);
+    background-color: #902765;
+    background-image: linear-gradient(225deg, #902765 0%, #6f4695 50%, #285271 100%);
+    height:1250px;
+}
+ td {
+    min-width: 40px;
+    min-height: 40px;
+    text-align: center;
+}
+
+#painel{
+    background-color: rgb(9, 14, 19);
+    width: 1270px;
+    font-size: 25px;
+    height: -8300px;
+    border-radius: 15px;
+    margin-right: 190px;
+    margin-top: -250px;
+}
+
+p{
+    padding-right: 505px;
+    margin-bottom: 300px;
+    margin-top: -490px;
+    font-size: 45px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: black 1px 2px 2px;
+    border: 1px solid rgb(0, 255, 225);
+    border-radius: 20px;
+    padding: 10px;
+    margin: 90px;
+    
+}

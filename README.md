@@ -1,6 +1,6 @@
 # Dungeon_Crawler(Mine escape)
 jogo desenvolvido como parte do processo avaliativo da disciplina de algoritmos e codificação de sistemas
-<br></br><br></br>
+<br></br><br>
 <h1 align="center" style="color: #f5b16d">HISTORIA</h1>
 <h4>
   Era uma vez, em uma pequena cidade cercada por montanhas, uma lendária mina conhecida como "Mina Perdida". Diziam que a mina era amaldiçoada e repleta de   perigos inimagináveis. No entanto, um corajoso aventureiro decidiu enfrentar o desafio e entrar na mina para descobrir seus segredos ocultos.

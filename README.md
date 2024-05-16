@@ -1,4 +1,4 @@
-# <h1>Dungeon_Crawler(Mine escape)</h1>
+# <h1 align="center">Dungeon_Crawler(Mine escape)</h1>
 jogo desenvolvido como parte do processo avaliativo da disciplina de algoritmos e codificação de sistemas
 <br></br><br>
 <h1 align="center" style="color: #f5b16d">HISTORIA</h1>
